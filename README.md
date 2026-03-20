@@ -68,5 +68,16 @@ Filter by Department / Company<br>
 Verify & Approve Visit
 </p>
 
-# Authors
+## Applications
+- Tamper-Proof IV Auditing
+- Accreditation & Compliance Documentation
+- Remote Extension Programs
+- Centralized Management Dashboard
+
+## Future Scope
+- Automated Geofencing
+- GenAI Image Verification
+- Blockchain-Backed Audit Trails 
+
+## Authors
 Kiruthika C G , Visagan G
