@@ -1,0 +1,42 @@
+
+name: geotag
+description: IV Attendance App with Geotag Verification
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase - For authentication and database
+  firebase_core: ^4.4.0          # Firebase initialization
+  firebase_auth: ^6.1.4          # Login/Register
+  cloud_firestore: ^6.1.2         # Database
+  firebase_storage: ^13.0.6        # Photo storage
+  image_picker: ^1.0.7
+  # Location - For GPS tracking
+  geolocator: ^13.0.0              # Get GPS location
+  permission_handler: ^11.3.1      # Ask for permissions
+
+  # Camera - For taking photos
+  camera: ^0.11.0
+  camera_windows: ^0.2.6+4               # Access device camera
+
+  # Utilities
+  provider: ^6.1.2                 # State management
+  intl: ^0.19.0                   # Date formatting
+  path_provider: ^2.1.1            # File paths
+  path: ^1.8.3                     # Path operations
+  connectivity_plus: ^6.0.0        # Check internet
+  flutter_spinkit: ^5.2.0          # Loading animations
+  url_launcher: ^6.3.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
